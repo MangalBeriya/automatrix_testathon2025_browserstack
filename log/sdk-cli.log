@@ -1,0 +1,1116 @@
+2025-08-22T17:37:21.534Z CLI info [main]     Server listening on port: 5400
+2025-08-22T17:37:21.709Z CLI info     Config : {"userName":"beriyamangal_3huK2D","accessKey":"JrpHvo9Qw63E3BE39QT6","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","framework":"testng","platforms":[{"os":"OS X","osVersion":"Big Sur","browserName":"Chrome","browserVersion":"latest"},{"os":"Windows","osVersion":10,"browserName":"Edge","browserVersion":"latest"},{"deviceName":"Samsung Galaxy S22 Ultra","browserName":"chrome","osVersion":12}],"parallelsPerPlatform":1,"source":"testng:sample-master:v1.1","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-08-22T17:37:21.718Z CLI info [testhub:module]  [beriyamangal_3huK2D]   [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Starting testhub from 9130:0
+2025-08-22T17:37:21.719Z CLI info [testhub:module]  [beriyamangal_3huK2D]   [d183071d-7562-4f96-b3b3-050b9d44ffe9]  startBuild: payload=
+
+{"started_at":"2025-08-22T17:37:21.719Z","host_info":{"hostname":"MacBook-Air.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.6.0: Mon Jul 14 11:29:54 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8122","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#${BUILD_NUMBER}","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.4.0","sdkVersion":"1.39.0","cliVersion":"1.6.11","language":"java","testFramework":{"name":"selenium","version":"4.1.4"},"source":"testng:sample-master:v1.1"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-08-22T17:37:21.719Z CLI info  [beriyamangal_3huK2D]   [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-08-22T17:37:22.647Z CLI info [testhub:module]  [beriyamangal_3huK2D]   [d183071d-7562-4f96-b3b3-050b9d44ffe9]  startBuild: response=yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll
+2025-08-22T17:37:22.649Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-08-22T17:37:30.993Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-08-22T17:37:31.567Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-08-22T17:37:32.264Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-08-22T17:37:33.201Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-08-22T17:37:36.956Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:37:36.948Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:36.956Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'aaf93d0a-766d-4380-9471-9a6353c63bff',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '6357af73-0289-422f-ad49-f0882be75b7e',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:37:36.948Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:36.957Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'af5f9802-d825-451e-b60c-b6d46b6b3018',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:37:36.948Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:37.046Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-08-22T17:37:37.041Z',
+      uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Failed to load class \\"org.slf4j.impl.StaticLoggerBinder\\"."',
+      level: 'ERROR',
+      test_run_uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922'
+    }
+  ]
+} to 9130:0
+2025-08-22T17:37:37.050Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-08-22T17:37:37.049Z',
+      uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Defaulting to no-operation (NOP) logger implementation"',
+      level: 'ERROR',
+      test_run_uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922'
+    }
+  ]
+} to 9130:0
+2025-08-22T17:37:37.053Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-08-22T17:37:37.052Z',
+      uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details."',
+      level: 'ERROR',
+      test_run_uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922'
+    }
+  ]
+} to 9130:0
+2025-08-22T17:37:37.077Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-08-22T17:37:37.076Z',
+      uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922',
+      kind: 'TEST_LOG',
+      message: '"WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance."',
+      level: 'INFO',
+      test_run_uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922'
+    }
+  ]
+} to 9130:0
+2025-08-22T17:37:38.658Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:37:36.948Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'aaf93d0a-766d-4380-9471-9a6353c63bff',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: '6357af73-0289-422f-ad49-f0882be75b7e',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:37:36.948Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'af5f9802-d825-451e-b60c-b6d46b6b3018',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:37:36.948Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 9130:0
+2025-08-22T17:37:38.660Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-22T17:37:42.450Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'aaf93d0a-766d-4380-9471-9a6353c63bff',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: '6357af73-0289-422f-ad49-f0882be75b7e',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:37:36.948Z',
+    finished_at: '2025-08-22T17:37:42.447Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:42.475Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '6357af73-0289-422f-ad49-f0882be75b7e',
+    integrations: { browserstack: [Object] }
+  }
+} to 9130:0
+2025-08-22T17:37:42.479Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '6357af73-0289-422f-ad49-f0882be75b7e',
+    name: 'addProductToCart',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackDemoTest.addProductToCart() throws java.lang.Exception'
+    },
+    identifier: 'addProductToCart',
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-22T17:37:42.455Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:42.658Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'aaf93d0a-766d-4380-9471-9a6353c63bff',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: '6357af73-0289-422f-ad49-f0882be75b7e',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:37:36.948Z',
+      finished_at: '2025-08-22T17:37:42.447Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '6357af73-0289-422f-ad49-f0882be75b7e',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '6357af73-0289-422f-ad49-f0882be75b7e',
+      name: 'addProductToCart',
+      body: [Object],
+      identifier: 'addProductToCart',
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-22T17:37:42.455Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 9130:0
+2025-08-22T17:37:42.658Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-22T17:37:53.132Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:37:36.948Z',
+    finished_at: '2025-08-22T17:37:53.129Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:53.140Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+    integrations: { browserstack: [Object] }
+  }
+} to 9130:0
+2025-08-22T17:37:53.143Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+    name: 'addProductToCart',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackDemoTest.addProductToCart() throws java.lang.Exception'
+    },
+    identifier: 'addProductToCart',
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-22T17:37:53.136Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-1' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:54.334Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'af5f9802-d825-451e-b60c-b6d46b6b3018',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:37:36.948Z',
+    finished_at: '2025-08-22T17:37:54.331Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:54.341Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+    integrations: { browserstack: [Object] }
+  }
+} to 9130:0
+2025-08-22T17:37:54.344Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+    name: 'addProductToCart',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackDemoTest.addProductToCart() throws java.lang.Exception'
+    },
+    identifier: 'addProductToCart',
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-08-22T17:37:54.338Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-2' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:54.668Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:37:36.948Z',
+      finished_at: '2025-08-22T17:37:53.129Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+      name: 'addProductToCart',
+      body: [Object],
+      identifier: 'addProductToCart',
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-22T17:37:53.136Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'af5f9802-d825-451e-b60c-b6d46b6b3018',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:37:36.948Z',
+      finished_at: '2025-08-22T17:37:54.331Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+      name: 'addProductToCart',
+      body: [Object],
+      identifier: 'addProductToCart',
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-08-22T17:37:54.338Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 9130:0
+2025-08-22T17:37:54.669Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-22T17:37:55.020Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":null,"test_rerun_name":"testng-browserstack-master-0","test_result_at":"2025-08-22T23:07:52.323843","test_scope":"Default Suite.com.browserstack.BStackDemoTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-08-22T23:07:42.455564","platform_index":0,"test_failure":null,"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Default Suite","com.browserstack.BStackDemoTest"],"test_code":"public void com.browserstack.BStackDemoTest.addProductToCart() throws java.lang.Exception","test_id":"testng-browserstack-master-0@0","test_uuid":"6357af73-0289-422f-ad49-f0882be75b7e","test_ended_at":"2025-08-22T23:07:52.324541","automate_session_name":"testng-browserstack-master-00","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.BStackDemoTest-addProductToCart","test_hook_state":"sdk:hook:2b84a739","custom_metadata":{},"test_failure_reason":null,"test_location":"src/test/java/com/browserstack/BStackDemoTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/BStackDemoTest.java","test_result":"passed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java","event_started_at":"2025-08-22T23:07:36.948225","hook_id":"aaf93d0a-766d-4380-9471-9a6353c63bff","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-08-22T23:07:42.447973","test_location":"testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java"}]},"hook_id":"aaf93d0a-766d-4380-9471-9a6353c63bff","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"addProductToCart","logs":[]}
+2025-08-22T17:37:55.022Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '6357af73-0289-422f-ad49-f0882be75b7e',
+    name: 'addProductToCart',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackDemoTest.addProductToCart() throws java.lang.Exception'
+    },
+    identifier: 'addProductToCart',
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    meta: {},
+    result: 'passed',
+    duration_in_ms: 9869,
+    started_at: '2025-08-22T17:37:42.455Z',
+    finished_at: '2025-08-22T17:37:52.324Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [ 'aaf93d0a-766d-4380-9471-9a6353c63bff' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:55.036Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'f082793b-ca02-4559-b932-436c41978663',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: '6357af73-0289-422f-ad49-f0882be75b7e',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:37:55.034Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:56.669Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '6357af73-0289-422f-ad49-f0882be75b7e',
+      name: 'addProductToCart',
+      body: [Object],
+      identifier: 'addProductToCart',
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      meta: {},
+      result: 'passed',
+      duration_in_ms: 9869,
+      started_at: '2025-08-22T17:37:42.455Z',
+      finished_at: '2025-08-22T17:37:52.324Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'f082793b-ca02-4559-b932-436c41978663',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: '6357af73-0289-422f-ad49-f0882be75b7e',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:37:55.034Z'
+    },
+    logs: []
+  }
+] to 9130:0
+2025-08-22T17:37:56.670Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-22T17:37:57.028Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'f082793b-ca02-4559-b932-436c41978663',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: '6357af73-0289-422f-ad49-f0882be75b7e',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:37:55.034Z',
+    finished_at: '2025-08-22T17:37:57.024Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:37:58.670Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'f082793b-ca02-4559-b932-436c41978663',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: '6357af73-0289-422f-ad49-f0882be75b7e',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:37:55.034Z',
+      finished_at: '2025-08-22T17:37:57.024Z'
+    },
+    logs: []
+  }
+] to 9130:0
+2025-08-22T17:37:58.672Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-22T17:38:06.609Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":null,"test_rerun_name":"testng-browserstack-master-1","test_result_at":"2025-08-22T23:08:04.206861","test_scope":"Default Suite.com.browserstack.BStackDemoTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-08-22T23:07:53.136446","platform_index":0,"test_failure":null,"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Default Suite","com.browserstack.BStackDemoTest"],"test_code":"public void com.browserstack.BStackDemoTest.addProductToCart() throws java.lang.Exception","test_id":"testng-browserstack-master-1@1","test_uuid":"28bdaf54-eb91-4ab4-af2d-1af640e1a97a","test_ended_at":"2025-08-22T23:08:04.207178","automate_session_name":"testng-browserstack-master-11","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.BStackDemoTest-addProductToCart","test_hook_state":"sdk:hook:e33f19b6","custom_metadata":{},"test_failure_reason":null,"test_location":"src/test/java/com/browserstack/BStackDemoTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/BStackDemoTest.java","test_result":"passed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java","event_started_at":"2025-08-22T23:07:36.948225","hook_id":"3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-08-22T23:07:53.129645","test_location":"testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java"}]},"hook_id":"3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"addProductToCart","logs":[]}
+2025-08-22T17:38:06.614Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+    name: 'addProductToCart',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackDemoTest.addProductToCart() throws java.lang.Exception'
+    },
+    identifier: 'addProductToCart',
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    meta: {},
+    result: 'passed',
+    duration_in_ms: 11071,
+    started_at: '2025-08-22T17:37:53.136Z',
+    finished_at: '2025-08-22T17:38:04.207Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-1' },
+    hooks: [ '3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:38:06.626Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'bbb2f87f-ef79-4a6e-84e3-97a106444730',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:38:06.622Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:38:06.672Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+      name: 'addProductToCart',
+      body: [Object],
+      identifier: 'addProductToCart',
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      meta: {},
+      result: 'passed',
+      duration_in_ms: 11071,
+      started_at: '2025-08-22T17:37:53.136Z',
+      finished_at: '2025-08-22T17:38:04.207Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'bbb2f87f-ef79-4a6e-84e3-97a106444730',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:38:06.622Z'
+    },
+    logs: []
+  }
+] to 9130:0
+2025-08-22T17:38:06.673Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-22T17:38:06.786Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":null,"test_rerun_name":"testng-browserstack-master-2","test_result_at":"2025-08-22T23:08:04.470522","test_scope":"Default Suite.com.browserstack.BStackDemoTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-08-22T23:07:54.338643","platform_index":0,"test_failure":null,"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Default Suite","com.browserstack.BStackDemoTest"],"test_code":"public void com.browserstack.BStackDemoTest.addProductToCart() throws java.lang.Exception","test_id":"testng-browserstack-master-2@2","test_uuid":"291a1675-8cb4-444e-a9ae-4fcaee02f642","test_ended_at":"2025-08-22T23:08:04.471183","automate_session_name":"testng-browserstack-master-22","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.BStackDemoTest-addProductToCart","test_hook_state":"sdk:hook:4bda79f9","custom_metadata":{},"test_failure_reason":null,"test_location":"src/test/java/com/browserstack/BStackDemoTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/BStackDemoTest.java","test_result":"passed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java","event_started_at":"2025-08-22T23:07:36.948225","hook_id":"af5f9802-d825-451e-b60c-b6d46b6b3018","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-08-22T23:07:54.331755","test_location":"testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java"}]},"hook_id":"af5f9802-d825-451e-b60c-b6d46b6b3018","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"addProductToCart","logs":[]}
+2025-08-22T17:38:06.787Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+    name: 'addProductToCart',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackDemoTest.addProductToCart() throws java.lang.Exception'
+    },
+    identifier: 'addProductToCart',
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+    meta: {},
+    result: 'passed',
+    duration_in_ms: 10133,
+    started_at: '2025-08-22T17:37:54.338Z',
+    finished_at: '2025-08-22T17:38:04.471Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-2' },
+    hooks: [ 'af5f9802-d825-451e-b60c-b6d46b6b3018' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:38:06.802Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '345bcd53-814c-44fe-97b9-8292d0e7bc8b',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:38:06.799Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:38:08.230Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'bbb2f87f-ef79-4a6e-84e3-97a106444730',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:38:06.622Z',
+    finished_at: '2025-08-22T17:38:08.223Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:38:08.354Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '345bcd53-814c-44fe-97b9-8292d0e7bc8b',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: '',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2025-08-22T17:38:06.799Z',
+    finished_at: '2025-08-22T17:38:08.352Z'
+  },
+  logs: []
+} to 9130:0
+2025-08-22T17:38:08.675Z CLI info [testhub:request-queue-handler]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+      name: 'addProductToCart',
+      body: [Object],
+      identifier: 'addProductToCart',
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'src/test/java/com/browserstack/BStackDemoTest.java',
+      meta: {},
+      result: 'passed',
+      duration_in_ms: 10133,
+      started_at: '2025-08-22T17:37:54.338Z',
+      finished_at: '2025-08-22T17:38:04.471Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '345bcd53-814c-44fe-97b9-8292d0e7bc8b',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:38:06.799Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'bbb2f87f-ef79-4a6e-84e3-97a106444730',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: '28bdaf54-eb91-4ab4-af2d-1af640e1a97a',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:38:06.622Z',
+      finished_at: '2025-08-22T17:38:08.223Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '345bcd53-814c-44fe-97b9-8292d0e7bc8b',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: '291a1675-8cb4-444e-a9ae-4fcaee02f642',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.BStackDemoTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      vc_filepath: '',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+      started_at: '2025-08-22T17:38:06.799Z',
+      finished_at: '2025-08-22T17:38:08.352Z'
+    },
+    logs: []
+  }
+] to 9130:0
+2025-08-22T17:38:08.678Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-22T17:38:09.713Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-08-22T17:38:10.690Z CLI error [testhub:module]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [collectBuildData] Exception in collecting build data for build UUID yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll: {"message":"Build data collection started"}
+2025-08-22T17:38:10.691Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-08-22T17:38:11.609Z CLI info [testhub:module]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  stopBuild: yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll request={"finished_at":"2025-08-22T17:38:08.876Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-08-22T17:38:11.614Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-08-22T17:38:11.616Z CLI info [TEST REPORTING AND ANALYTICS:module]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Visit https://automation.browserstack.com/builds/yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll to view build report, insights, and many more debugging information all at one place!
+2025-08-22T17:38:16.164Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-08-22T17:38:16.628Z CLI info  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-08-22T17:38:17.964Z CLI info [main]  [beriyamangal_3huK2D]  [yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll]  [d183071d-7562-4f96-b3b3-050b9d44ffe9]  Received graceful signal termination, performing cleanup

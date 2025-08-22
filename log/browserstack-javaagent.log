@@ -1,0 +1,1042 @@
+23:07:19.741 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:07:19.754 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+23:07:19.754 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:07:19.822 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+23:07:19.824 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:07:19.827 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+23:07:20.074 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:07:20.075 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: ab24985a-35fa-42fd-b825-78fe3b6814e6
+23:07:20.076 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:07:20.082 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/mrmangalberiya/.browserstack already exist
+23:07:20.083 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: /Users/mrmangalberiya/.browserstack/cli/binary-macos-arm64
+23:07:21.352 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: /Users/mrmangalberiya/.browserstack/cli/binary-macos-arm64
+23:07:21.354 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+23:07:21.355 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='/Users/mrmangalberiya/.browserstack/cli/binary-macos-arm64' 'sdk' 'tcp'
+23:07:21.598 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=d183071d-7562-4f96-b3b3-050b9d44ffe9 listenAddress=127.0.0.1:5400
+23:07:21.598 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process started
+23:07:21.598 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process connecting {port=5400, listen=127.0.0.1:5400, id=d183071d-7562-4f96-b3b3-050b9d44ffe9}
+23:07:21.604 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/mrmangalberiya/.browserstack already exist
+23:07:30.976 [main] DEBUG com.browserstack.v2.SdkCLI - start-bin-session=bin_session_id: "d183071d-7562-4f96-b3b3-050b9d44ffe9"
+config: "{\"userName\":\"beriyamangal_3huK2D\",\"accessKey\":\"JrpHvo9Qw63E3BE39QT6\",\"projectName\":\"BrowserStack Samples\",\"buildName\":\"browserstack build\",\"buildIdentifier\":\"#${BUILD_NUMBER}\",\"framework\":\"testng\",\"platforms\":[{\"os\":\"OS X\",\"osVersion\":\"Big Sur\",\"browserName\":\"Chrome\",\"browserVersion\":\"latest\"},{\"os\":\"Windows\",\"osVersion\":10,\"browserName\":\"Edge\",\"browserVersion\":\"latest\"},{\"deviceName\":\"Samsung Galaxy S22 Ultra\",\"browserName\":\"chrome\",\"osVersion\":12}],\"parallelsPerPlatform\":1,\"source\":\"testng:sample-master:v1.1\",\"browserstackLocal\":true,\"debug\":false,\"networkLogs\":false,\"consoleLogs\":\"errors\",\"testObservability\":true,\"accessibility\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"browserStackLocalOptions\":{\"localIdentifier\":\"Aug_22_2307_MacBook-Air.local_q7a6\",\"key\":\"JrpHvo9Qw63E3BE39QT6\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub.browserstack.com/wd/hub\",\"proxySettings\":{}}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU1ODk1MDQyIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjg1NzQyMTgsInNjb3BlIjp7InByb2R1Y3QiOiJzZGsiLCJ1c2VyX2FjY2VzcyI6eyJ0ZXN0X29ic2VydmFiaWxpdHkiOjEsImF1dG9tYXRlIjoxLCJhcHBfYXV0b21hdGUiOjEsInBlcmN5IjoxLCJhcHBfcGVyY3kiOjEsImFjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXBwX2FjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXV0b21hdGVfdHVyYm9zY2FsZSI6MSwibG93X2NvZGVfYXV0b21hdGlvbiI6MX0sImlhYW1fcm9sZSI6InVzZXIifSwiZ3JvdXBfaWQiOjQ3NTI0NTYsInRlYW1faWQiOm51bGwsInVkYWNfYWNjZXNzIjoiZ2xvYmFsIn0.ISKp-98knmPSimZv68YA7f_6cGLKDS_eBpLrWbERqmHxZ7bzk47WFVr6FZMP9R9eHDnQndY3LXsIg3_kUpbxK2m2nqnoF9IEnCDGZhAOp6ahoXllqmRAts9LbS9fCsU_Ayz2Ehl3DfpYop4T0r27Sd2lDckzskKxAhArHu2PVqzHSHSNgk4EExxW1jo0UNUhQ9C2IwRsTs9BIQBbq3CVxeaY7kiPdMAuGveRU8n5e9tYpO3pDNi0yr5SDsw4Ts7Uw2op0XQaDr48QLeJBAOGg99bEsBQ50BWCWEqS9YASmH13_h-cFvuSs-TAz4le8ksfyyE63imWZxqEJDAMSJ4ng"
+  build_hashed_id: "yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: ""
+8: "selenium"
+
+23:07:30.986 [main] DEBUG com.browserstack.v2.SdkCLI - startChild: child-process connecting
+23:07:32.285 [main] DEBUG com.browserstack.v2.SdkCLI - connect-bin-session=bin_session_id: "d183071d-7562-4f96-b3b3-050b9d44ffe9"
+config: "{\"userName\":\"beriyamangal_3huK2D\",\"accessKey\":\"JrpHvo9Qw63E3BE39QT6\",\"projectName\":\"BrowserStack Samples\",\"buildName\":\"browserstack build\",\"buildIdentifier\":\"#${BUILD_NUMBER}\",\"framework\":\"testng\",\"platforms\":[{\"os\":\"OS X\",\"osVersion\":\"Big Sur\",\"browserName\":\"Chrome\",\"browserVersion\":\"latest\"},{\"os\":\"Windows\",\"osVersion\":10,\"browserName\":\"Edge\",\"browserVersion\":\"latest\"},{\"deviceName\":\"Samsung Galaxy S22 Ultra\",\"browserName\":\"chrome\",\"osVersion\":12}],\"parallelsPerPlatform\":1,\"source\":\"testng:sample-master:v1.1\",\"browserstackLocal\":true,\"debug\":false,\"networkLogs\":false,\"consoleLogs\":\"errors\",\"testObservability\":true,\"accessibility\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"browserStackLocalOptions\":{\"localIdentifier\":\"Aug_22_2307_MacBook-Air.local_q7a6\",\"key\":\"JrpHvo9Qw63E3BE39QT6\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-aps.browserstack.com/wd/hub\",\"proxySettings\":{}}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU1ODk1MDQyIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjg1NzQyMTgsInNjb3BlIjp7InByb2R1Y3QiOiJzZGsiLCJ1c2VyX2FjY2VzcyI6eyJ0ZXN0X29ic2VydmFiaWxpdHkiOjEsImF1dG9tYXRlIjoxLCJhcHBfYXV0b21hdGUiOjEsInBlcmN5IjoxLCJhcHBfcGVyY3kiOjEsImFjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXBwX2FjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXV0b21hdGVfdHVyYm9zY2FsZSI6MSwibG93X2NvZGVfYXV0b21hdGlvbiI6MX0sImlhYW1fcm9sZSI6InVzZXIifSwiZ3JvdXBfaWQiOjQ3NTI0NTYsInRlYW1faWQiOm51bGwsInVkYWNfYWNjZXNzIjoiZ2xvYmFsIn0.ISKp-98knmPSimZv68YA7f_6cGLKDS_eBpLrWbERqmHxZ7bzk47WFVr6FZMP9R9eHDnQndY3LXsIg3_kUpbxK2m2nqnoF9IEnCDGZhAOp6ahoXllqmRAts9LbS9fCsU_Ayz2Ehl3DfpYop4T0r27Sd2lDckzskKxAhArHu2PVqzHSHSNgk4EExxW1jo0UNUhQ9C2IwRsTs9BIQBbq3CVxeaY7kiPdMAuGveRU8n5e9tYpO3pDNi0yr5SDsw4Ts7Uw2op0XQaDr48QLeJBAOGg99bEsBQ50BWCWEqS9YASmH13_h-cFvuSs-TAz4le8ksfyyE63imWZxqEJDAMSJ4ng"
+  build_hashed_id: "yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+23:07:32.288 [main] INFO  com.browserstack.v2.SdkCLI - loadBinResponse: Loading modules as per LoadBinResponse=bin_session_id: "d183071d-7562-4f96-b3b3-050b9d44ffe9"
+config: "{\"userName\":\"beriyamangal_3huK2D\",\"accessKey\":\"JrpHvo9Qw63E3BE39QT6\",\"projectName\":\"BrowserStack Samples\",\"buildName\":\"browserstack build\",\"buildIdentifier\":\"#${BUILD_NUMBER}\",\"framework\":\"testng\",\"platforms\":[{\"os\":\"OS X\",\"osVersion\":\"Big Sur\",\"browserName\":\"Chrome\",\"browserVersion\":\"latest\"},{\"os\":\"Windows\",\"osVersion\":10,\"browserName\":\"Edge\",\"browserVersion\":\"latest\"},{\"deviceName\":\"Samsung Galaxy S22 Ultra\",\"browserName\":\"chrome\",\"osVersion\":12}],\"parallelsPerPlatform\":1,\"source\":\"testng:sample-master:v1.1\",\"browserstackLocal\":true,\"debug\":false,\"networkLogs\":false,\"consoleLogs\":\"errors\",\"testObservability\":true,\"accessibility\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"browserStackLocalOptions\":{\"localIdentifier\":\"Aug_22_2307_MacBook-Air.local_q7a6\",\"key\":\"JrpHvo9Qw63E3BE39QT6\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-aps.browserstack.com/wd/hub\",\"proxySettings\":{}}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU1ODk1MDQyIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjg1NzQyMTgsInNjb3BlIjp7InByb2R1Y3QiOiJzZGsiLCJ1c2VyX2FjY2VzcyI6eyJ0ZXN0X29ic2VydmFiaWxpdHkiOjEsImF1dG9tYXRlIjoxLCJhcHBfYXV0b21hdGUiOjEsInBlcmN5IjoxLCJhcHBfcGVyY3kiOjEsImFjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXBwX2FjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXV0b21hdGVfdHVyYm9zY2FsZSI6MSwibG93X2NvZGVfYXV0b21hdGlvbiI6MX0sImlhYW1fcm9sZSI6InVzZXIifSwiZ3JvdXBfaWQiOjQ3NTI0NTYsInRlYW1faWQiOm51bGwsInVkYWNfYWNjZXNzIjoiZ2xvYmFsIn0.ISKp-98knmPSimZv68YA7f_6cGLKDS_eBpLrWbERqmHxZ7bzk47WFVr6FZMP9R9eHDnQndY3LXsIg3_kUpbxK2m2nqnoF9IEnCDGZhAOp6ahoXllqmRAts9LbS9fCsU_Ayz2Ehl3DfpYop4T0r27Sd2lDckzskKxAhArHu2PVqzHSHSNgk4EExxW1jo0UNUhQ9C2IwRsTs9BIQBbq3CVxeaY7kiPdMAuGveRU8n5e9tYpO3pDNi0yr5SDsw4Ts7Uw2op0XQaDr48QLeJBAOGg99bEsBQ50BWCWEqS9YASmH13_h-cFvuSs-TAz4le8ksfyyE63imWZxqEJDAMSJ4ng"
+  build_hashed_id: "yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+23:07:32.296 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=WebdriverModule & d183071d-7562-4f96-b3b3-050b9d44ffe9
+23:07:32.296 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=ObservabilityModule & d183071d-7562-4f96-b3b3-050b9d44ffe9
+23:07:32.296 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=TestHubModule & d183071d-7562-4f96-b3b3-050b9d44ffe9
+23:07:32.303 [main] INFO  com.browserstack.v2.SdkCLI - startChild: child-process connected
+23:07:32.307 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+23:07:36.641 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:07:36.659 [main] INFO  com.browserstack.testOps.Listener - onStart: CLI is active
+23:07:36.811 [main] DEBUG com.browserstack.v2.SdkCLI - Setting up testng framework
+23:07:36.811 [main] DEBUG com.browserstack.v2.SdkCLI - Setting up selenium framework
+23:07:36.918 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+23:07:36.928 [TestNG-tests-3] INFO  c.b.v2.framework.TestNgFramework - trackTestNgTest: saved instance contextId=499983172 target=testng-browserstack-master-2@2 instances=[499983172, 499982210]
+23:07:36.928 [TestNG-tests-2] INFO  c.b.v2.framework.TestNgFramework - trackTestNgTest: saved instance contextId=499982210 target=testng-browserstack-master-1@1 instances=[499983172, 499982210]
+23:07:36.928 [TestNG-tests-1] INFO  c.b.v2.framework.TestNgFramework - trackTestNgTest: saved instance contextId=499981248 target=testng-browserstack-master-0@0 instances=[499983172, 499981248, 499982210]
+23:07:36.928 [TestNG-tests-2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=499982210
+23:07:36.928 [TestNG-tests-3] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=499983172
+23:07:36.928 [TestNG-tests-1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=499981248
+23:07:36.928 [TestNG-tests-3] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=499983172
+23:07:36.928 [TestNG-tests-1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=499981248
+23:07:36.928 [TestNG-tests-2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=499982210
+23:07:36.936 [testng-browserstack-master-0@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=499981248
+23:07:36.936 [testng-browserstack-master-2@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=499983172
+23:07:36.936 [testng-browserstack-master-1@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=499982210
+23:07:36.937 [testng-browserstack-master-2@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=499983172
+23:07:36.937 [testng-browserstack-master-1@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=499982210
+23:07:36.937 [testng-browserstack-master-0@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=499981248
+23:07:36.937 [testng-browserstack-master-2@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:07:36.937 [testng-browserstack-master-1@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:07:36.937 [testng-browserstack-master-0@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:07:36.947 [testng-browserstack-master-0@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=STARTED method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f] output={null}]
+23:07:36.947 [testng-browserstack-master-1@1] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=STARTED method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@58472096] output={null}]
+23:07:36.947 [testng-browserstack-master-2@2] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=STARTED method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@50850539] output={null}]
+23:07:36.948 [testng-browserstack-master-0@0] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = BEFORE_METHOD & hook = {hook_name=setUp, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=aaf93d0a-766d-4380-9471-9a6353c63bff, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}  and args = [[TestResult name=setUp status=STARTED method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f] output={null}], SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f]]
+23:07:36.948 [testng-browserstack-master-1@1] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = BEFORE_METHOD & hook = {hook_name=setUp, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}  and args = [[TestResult name=setUp status=STARTED method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@58472096] output={null}], SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@58472096]]
+23:07:36.948 [testng-browserstack-master-2@2] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = BEFORE_METHOD & hook = {hook_name=setUp, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=af5f9802-d825-451e-b60c-b6d46b6b3018, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}  and args = [[TestResult name=setUp status=STARTED method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@50850539] output={null}], SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@50850539]]
+23:07:36.948 [testng-browserstack-master-2@2] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[{hook_name=setUp, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=af5f9802-d825-451e-b60c-b6d46b6b3018, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]} , hooks finished={BEFORE_METHOD=[]}
+23:07:36.948 [testng-browserstack-master-0@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[{hook_name=setUp, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=aaf93d0a-766d-4380-9471-9a6353c63bff, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]} , hooks finished={BEFORE_METHOD=[]}
+23:07:36.948 [testng-browserstack-master-1@1] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[{hook_name=setUp, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]} , hooks finished={BEFORE_METHOD=[]}
+23:07:36.958 [testng-browserstack-master-0@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@22d5f85d, response=success: true
+
+23:07:36.958 [testng-browserstack-master-1@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@46c6ad3e, response=success: true
+
+23:07:36.958 [testng-browserstack-master-2@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@4e38ac54, response=success: true
+
+23:07:37.041 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=499982210
+23:07:37.041 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+23:07:37.047 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@574118c4, response=success: true
+
+23:07:37.047 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@574118c4
+23:07:37.049 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=499982210
+23:07:37.049 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+23:07:37.050 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@42e29a9e, response=success: true
+
+23:07:37.051 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@42e29a9e
+23:07:37.052 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=499982210
+23:07:37.052 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+23:07:37.054 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@2cae782a, response=success: true
+
+23:07:37.054 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@2cae782a
+23:07:37.075 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=499982210
+23:07:37.076 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+23:07:37.078 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@220ec11b, response=success: true
+
+23:07:37.078 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@220ec11b
+23:07:37.286 [setUp@0] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=498683487 target=9123:53 instances=[498683487, 498683489]
+23:07:37.286 [setUp@2] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=498683489 target=9123:55 instances=[498683487, 498683489]
+23:07:37.286 [setUp@1] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=498683488 target=9123:54 instances=[498683487, 498683489, 498683488]
+23:07:37.287 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@5f3e514d
+23:07:37.287 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@1ae4cc82
+23:07:37.287 [setUp@1] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@4d6dc405
+23:07:37.290 [setUp@1] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@4d6dc405
+23:07:37.291 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@5f3e514d
+23:07:37.293 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@1ae4cc82
+23:07:37.322 [setUp@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@56f71746
+23:07:37.322 [setUp@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@56f71746
+23:07:37.322 [setUp@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@cc0a0e8
+23:07:37.322 [setUp@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6578ea04
+23:07:37.322 [setUp@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@cc0a0e8
+23:07:37.322 [setUp@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6578ea04
+23:07:42.410 [setUp@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2bf0e779
+23:07:42.410 [setUp@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2bf0e779
+23:07:42.410 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:42.410 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:42.411 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:42.411 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:42.411 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:42.420 [setUp@0] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=498683487 target=9123:53 instances=[498683487, 498683489, 498683488]
+23:07:42.420 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@192de65c
+23:07:42.421 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.421 [setUp@0] INFO  c.b.v2.module.WebdriverModule - Found session id=1599299eb41e92d6b4f029ffe027fbd9078faed5 for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@13acbecd
+23:07:42.421 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.422 [setUp@0] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+23:07:42.424 [setUp@0] ERROR c.b.v2.module.WebdriverModule - Error AutomationFrameworkStart to start driver with error java.lang.ClassCastException: class java.lang.Object cannot be cast to class browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse (java.lang.Object is in module java.base of loader 'bootstrap'; browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse is in unnamed module of loader 'app')
+	at com.browserstack.v2.module.WebdriverModule.startDriver(Unknown Source)
+	at com.browserstack.v2.module.WebdriverModule.onDriverCreated(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.persistDriverInstance(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.afterDriverInit(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at com.browserstack.SeleniumTest.setUp(SeleniumTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+	at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:132)
+	at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+	at java.base/java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:305)
+	at org.testng.internal.thread.ThreadUtil.execute(ThreadUtil.java:70)
+	at org.testng.SuiteRunner.runInParallelTestMode(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+23:07:42.424 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@192de65c
+23:07:42.424 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.424 [setUp@0] INFO  c.b.v2.module.WebdriverModule - Found session id=1599299eb41e92d6b4f029ffe027fbd9078faed5 for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@13acbecd
+23:07:42.424 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.424 [setUp@0] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+23:07:42.424 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.435 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.436 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.436 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.436 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.446 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.446 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.446 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=499981248
+23:07:42.446 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=499981248
+23:07:42.446 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:07:42.447 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=SUCCESS method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f] output={null}]
+23:07:42.447 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=setUp, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=aaf93d0a-766d-4380-9471-9a6353c63bff, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}] and args = [[TestResult name=setUp status=SUCCESS method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f] output={null}], SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f]]
+23:07:42.448 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/HookLevel
+23:07:42.448 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+23:07:42.448 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/HookLevel/BuildLevelHookEvent and abs path = /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/HookLevel/BuildLevelHookEvent 
+23:07:42.448 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/HookLevel/BuildLevelHookEvent
+23:07:42.448 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+23:07:42.448 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+23:07:42.448 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=aaf93d0a-766d-4380-9471-9a6353c63bff, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:07:42.447973, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]}
+23:07:42.450 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@46208245, response=success: true
+
+23:07:42.453 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=499981248
+23:07:42.455 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded initial test data to instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=499981248
+23:07:42.455 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@2a1d41a8
+23:07:42.455 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@2a1d41a8
+23:07:42.455 [setUp@0] INFO  c.b.v2.module.TestHubModule - onAfterTest: event={com.browserstack.v2.eventBus.Event@2a1d41a8}
+23:07:42.467 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.471 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.476 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendTestSessionEvent: event=com.browserstack.v2.eventBus.Event@2a1d41a8, response=success: true
+
+23:07:42.479 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@2a1d41a8, response=success: true
+
+23:07:42.481 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - onBeforeTest: event={instance=com.browserstack.v2.instance.TestFrameworkInstance@81a03c6, testFrameworkState=TestFrameworkState.TEST, testInstance=com.browserstack.v2.instance.TestFrameworkInstance@81a03c6, autoInstance=[com.browserstack.v2.instance.AutomationFrameworkInstance@13acbecd], hookState=HookState.PRE}
+23:07:42.481 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - performTestReportingSync: Performing TEST REPORTING AND ANALYTICS Sync
+23:07:42.481 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.481 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.481 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.601 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:42.601 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@682ecebb
+23:07:42.601 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@682ecebb
+23:07:50.603 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@38a33331
+23:07:50.603 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@38a33331
+23:07:50.603 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:50.603 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:50.603 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:50.603 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:50.604 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:50.607 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:50.608 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@54ae3feb
+23:07:50.608 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@54ae3feb
+23:07:50.608 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@58d72934
+23:07:50.608 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@58d72934
+23:07:50.749 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@316b2765
+23:07:50.749 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@316b2765
+23:07:50.749 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:50.749 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:50.749 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:50.749 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:50.749 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:50.753 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@582443e3
+23:07:50.753 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@582443e3
+23:07:50.753 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:50.754 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:50.754 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:50.754 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:50.754 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:50.759 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:50.761 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@f8d8d15
+23:07:50.762 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@f8d8d15
+23:07:50.904 [Forwarding findElement on session 1599299eb41e92d6b4f029ffe027fbd9078faed5 to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:50.905 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1888cd42
+23:07:50.905 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1888cd42
+23:07:50.905 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:50.905 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:50.905 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:50.905 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:50.905 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:50.907 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:50.907 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:50.908 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:50.908 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:50.908 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7f824a16
+23:07:50.908 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7f824a16
+23:07:51.051 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6ee2de98
+23:07:51.051 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6ee2de98
+23:07:51.051 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:51.051 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:51.051 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:51.051 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:51.051 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:51.056 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.056 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2d09c560
+23:07:51.056 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2d09c560
+23:07:51.325 [Forwarding findElement on session 1599299eb41e92d6b4f029ffe027fbd9078faed5 to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.325 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@58171ec
+23:07:51.325 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@58171ec
+23:07:51.325 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:51.325 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:51.326 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:51.326 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:51.326 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:51.329 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.329 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.329 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.329 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.329 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@58afa565
+23:07:51.329 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@58afa565
+23:07:51.506 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@607f46d5
+23:07:51.506 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@607f46d5
+23:07:51.506 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:51.506 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:51.507 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:51.507 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:51.507 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:51.515 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.516 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@4d65c902
+23:07:51.516 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@4d65c902
+23:07:51.719 [Forwarding findElement on session 1599299eb41e92d6b4f029ffe027fbd9078faed5 to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.720 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4948586b
+23:07:51.720 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4948586b
+23:07:51.720 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:51.721 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:51.721 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:51.721 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:51.722 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:51.729 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.730 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.731 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.731 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:51.731 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6061d770
+23:07:51.731 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6061d770
+23:07:52.015 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@a284344
+23:07:52.015 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@a284344
+23:07:52.015 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:52.015 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:52.015 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:52.016 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:52.016 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:52.021 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:52.022 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3b8681ec
+23:07:52.023 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3b8681ec
+23:07:52.168 [Forwarding findElement on session 1599299eb41e92d6b4f029ffe027fbd9078faed5 to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:52.169 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5bd7afd8
+23:07:52.170 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5bd7afd8
+23:07:52.170 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:52.170 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:52.170 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:52.170 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:52.171 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:52.182 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:52.182 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:52.182 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:52.182 [addProductToCart@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:52.182 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7f04607f
+23:07:52.182 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7f04607f
+23:07:52.318 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2a11283b
+23:07:52.318 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2a11283b
+23:07:52.318 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:52.319 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:52.320 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:52.320 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:52.320 [addProductToCart@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:52.323 [addProductToCart@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.PRE instance=499981248
+23:07:52.323 [addProductToCart@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.POST instance=499981248
+23:07:52.323 [addProductToCart@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load test results
+23:07:52.324 [addProductToCart@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.POST instance=499981248
+23:07:52.324 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@5252546c
+23:07:52.324 [addProductToCart@0] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: 1599299eb41e92d6b4f029ffe027fbd9078faed5
+23:07:53.024 [addProductToCart@0] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid 1599299eb41e92d6b4f029ffe027fbd9078faed5
+23:07:53.024 [addProductToCart@0] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: 1599299eb41e92d6b4f029ffe027fbd9078faed5
+23:07:53.108 [setUp@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@371b5b8
+23:07:53.108 [setUp@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@371b5b8
+23:07:53.108 [setUp@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:07:53.108 [setUp@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:07:53.108 [setUp@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:07:53.108 [setUp@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:53.109 [setUp@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:53.112 [setUp@1] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=498683488 target=9123:54 instances=[498683487, 498683489, 498683488]
+23:07:53.112 [setUp@1] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@3c96a860
+23:07:53.112 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.112 [setUp@1] INFO  c.b.v2.module.WebdriverModule - Found session id=427031ce26c2f96b79ac1b22bae88fa5b6b8e87b for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@33478c2b
+23:07:53.112 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.112 [setUp@1] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+23:07:53.115 [setUp@1] ERROR c.b.v2.module.WebdriverModule - Error AutomationFrameworkStart to start driver with error java.lang.ClassCastException: class java.lang.Object cannot be cast to class browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse (java.lang.Object is in module java.base of loader 'bootstrap'; browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse is in unnamed module of loader 'app')
+	at com.browserstack.v2.module.WebdriverModule.startDriver(Unknown Source)
+	at com.browserstack.v2.module.WebdriverModule.onDriverCreated(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.persistDriverInstance(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.afterDriverInit(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at com.browserstack.SeleniumTest.setUp(SeleniumTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+	at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:132)
+	at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+	at java.base/java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:305)
+	at org.testng.internal.thread.ThreadUtil.execute(ThreadUtil.java:70)
+	at org.testng.SuiteRunner.runInParallelTestMode(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+23:07:53.115 [setUp@1] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@3c96a860
+23:07:53.115 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.115 [setUp@1] INFO  c.b.v2.module.WebdriverModule - Found session id=427031ce26c2f96b79ac1b22bae88fa5b6b8e87b for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@33478c2b
+23:07:53.115 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.115 [setUp@1] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+23:07:53.115 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.123 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.123 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.123 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.124 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.127 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.127 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.127 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=499982210
+23:07:53.127 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=499982210
+23:07:53.127 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:07:53.129 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=SUCCESS method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@58472096] output={null}]
+23:07:53.129 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=setUp, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}] and args = [[TestResult name=setUp status=SUCCESS method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@58472096] output={null}], SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@58472096]]
+23:07:53.129 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/HookLevel
+23:07:53.129 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+23:07:53.129 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/HookLevel/BuildLevelHookEvent and abs path = /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/HookLevel/BuildLevelHookEvent 
+23:07:53.129 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/HookLevel/BuildLevelHookEvent
+23:07:53.129 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+23:07:53.129 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+23:07:53.129 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:07:53.129645, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]}
+23:07:53.132 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@67c3ad8, response=success: true
+
+23:07:53.135 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=499982210
+23:07:53.136 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded initial test data to instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=499982210
+23:07:53.136 [setUp@1] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@3d6aa366
+23:07:53.136 [setUp@1] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@3d6aa366
+23:07:53.136 [setUp@1] INFO  c.b.v2.module.TestHubModule - onAfterTest: event={com.browserstack.v2.eventBus.Event@3d6aa366}
+23:07:53.136 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.137 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.140 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendTestSessionEvent: event=com.browserstack.v2.eventBus.Event@3d6aa366, response=success: true
+
+23:07:53.143 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@3d6aa366, response=success: true
+
+23:07:53.145 [setUp@1] INFO  c.b.v2.module.ObservabilityModule - onBeforeTest: event={instance=com.browserstack.v2.instance.TestFrameworkInstance@5964e261, testFrameworkState=TestFrameworkState.TEST, testInstance=com.browserstack.v2.instance.TestFrameworkInstance@5964e261, autoInstance=[com.browserstack.v2.instance.AutomationFrameworkInstance@33478c2b], hookState=HookState.PRE}
+23:07:53.145 [setUp@1] INFO  c.b.v2.module.ObservabilityModule - performTestReportingSync: Performing TEST REPORTING AND ANALYTICS Sync
+23:07:53.145 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.145 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.145 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.266 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:07:53.267 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2ff24635
+23:07:53.267 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2ff24635
+23:07:53.766 [addProductToCart@0] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@5252546c
+23:07:53.766 [addProductToCart@0] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: 1599299eb41e92d6b4f029ffe027fbd9078faed5
+23:07:54.307 [setUp@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@52f088f9
+23:07:54.307 [setUp@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@52f088f9
+23:07:54.307 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:07:54.307 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:07:54.308 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:07:54.308 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:54.308 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:54.314 [setUp@2] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=498683489 target=9123:55 instances=[498683487, 498683489, 498683488]
+23:07:54.314 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@6b8be36e
+23:07:54.314 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.314 [setUp@2] INFO  c.b.v2.module.WebdriverModule - Found session id=c8230337dfb1c39277039d457d891fae9638f360 for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@245438e0
+23:07:54.314 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.314 [setUp@2] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+23:07:54.318 [setUp@2] ERROR c.b.v2.module.WebdriverModule - Error AutomationFrameworkStart to start driver with error java.lang.ClassCastException: class java.lang.Object cannot be cast to class browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse (java.lang.Object is in module java.base of loader 'bootstrap'; browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse is in unnamed module of loader 'app')
+	at com.browserstack.v2.module.WebdriverModule.startDriver(Unknown Source)
+	at com.browserstack.v2.module.WebdriverModule.onDriverCreated(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.persistDriverInstance(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.afterDriverInit(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at com.browserstack.SeleniumTest.setUp(SeleniumTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+	at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:132)
+	at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+	at java.base/java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:305)
+	at org.testng.internal.thread.ThreadUtil.execute(ThreadUtil.java:70)
+	at org.testng.SuiteRunner.runInParallelTestMode(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+23:07:54.318 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@6b8be36e
+23:07:54.318 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.318 [setUp@2] INFO  c.b.v2.module.WebdriverModule - Found session id=c8230337dfb1c39277039d457d891fae9638f360 for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@245438e0
+23:07:54.318 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.318 [setUp@2] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+23:07:54.318 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.326 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.326 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.326 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.327 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.330 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.330 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.330 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=499983172
+23:07:54.330 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=499983172
+23:07:54.330 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:07:54.331 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=SUCCESS method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@50850539] output={null}]
+23:07:54.331 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=setUp, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=af5f9802-d825-451e-b60c-b6d46b6b3018, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}] and args = [[TestResult name=setUp status=SUCCESS method=SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@50850539] output={null}], SeleniumTest.setUp()[pri:0, instance:com.browserstack.BStackDemoTest@50850539]]
+23:07:54.331 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/HookLevel
+23:07:54.331 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+23:07:54.332 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/HookLevel/BuildLevelHookEvent and abs path = /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/HookLevel/BuildLevelHookEvent 
+23:07:54.332 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/HookLevel/BuildLevelHookEvent
+23:07:54.332 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+23:07:54.332 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+23:07:54.332 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=af5f9802-d825-451e-b60c-b6d46b6b3018, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:07:54.331755, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]}
+23:07:54.334 [setUp@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@75ffa69b, response=success: true
+
+23:07:54.337 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=499983172
+23:07:54.338 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded initial test data to instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=499983172
+23:07:54.338 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@516c8f91
+23:07:54.338 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@516c8f91
+23:07:54.338 [setUp@2] INFO  c.b.v2.module.TestHubModule - onAfterTest: event={com.browserstack.v2.eventBus.Event@516c8f91}
+23:07:54.338 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.339 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.342 [setUp@2] INFO  c.b.v2.module.TestHubModule - sendTestSessionEvent: event=com.browserstack.v2.eventBus.Event@516c8f91, response=success: true
+
+23:07:54.345 [setUp@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@516c8f91, response=success: true
+
+23:07:54.347 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - onBeforeTest: event={instance=com.browserstack.v2.instance.TestFrameworkInstance@55fa32d6, testFrameworkState=TestFrameworkState.TEST, testInstance=com.browserstack.v2.instance.TestFrameworkInstance@55fa32d6, autoInstance=[com.browserstack.v2.instance.AutomationFrameworkInstance@245438e0], hookState=HookState.PRE}
+23:07:54.347 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - performTestReportingSync: Performing TEST REPORTING AND ANALYTICS Sync
+23:07:54.347 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.347 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.347 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.436 [addProductToCart@0] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid 1599299eb41e92d6b4f029ffe027fbd9078faed5
+23:07:54.436 [addProductToCart@0] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: 1599299eb41e92d6b4f029ffe027fbd9078faed5
+23:07:54.497 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:07:54.497 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@914e7d3
+23:07:54.497 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@914e7d3
+23:07:55.025 [addProductToCart@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@5252546c, response=success: true
+
+23:07:55.031 [addProductToCart@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.PRE instance=499981248
+23:07:55.031 [addProductToCart@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:07:55.034 [addProductToCart@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=STARTED method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f] output={null}]
+23:07:55.034 [addProductToCart@0] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = AFTER_METHOD & hook = {hook_name=tearDown, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:55.034118, hook_id=f082793b-ca02-4559-b932-436c41978663, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}  and args = [[TestResult name=tearDown status=STARTED method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f] output={null}], SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f]]
+23:07:55.034 [addProductToCart@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[{hook_name=tearDown, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:55.034118, hook_id=f082793b-ca02-4559-b932-436c41978663, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=aaf93d0a-766d-4380-9471-9a6353c63bff, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:07:42.447973, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}], AFTER_METHOD=[]}
+23:07:55.038 [addProductToCart@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@6934c25a, response=success: true
+
+23:07:55.040 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:55.041 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:55.041 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:55.042 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@7f08a7a2
+23:07:55.044 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@7f08a7a2
+23:07:55.044 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:55.051 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:07:55.052 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@38621201
+23:07:55.052 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@38621201
+23:07:55.052 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@62c577a8
+23:07:55.052 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@62c577a8
+23:07:57.013 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5a448db5
+23:07:57.013 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5a448db5
+23:07:57.013 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:57.013 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:57.013 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:57.013 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:57.013 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:57.018 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@ea05228
+23:07:57.018 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@ea05228
+23:07:57.018 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 53
+23:07:57.018 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/TestLevel
+23:07:57.018 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/BuildLevel
+23:07:57.018 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:07:57.018 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:07:57.021 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.POST instance=499981248
+23:07:57.021 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:07:57.023 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=SUCCESS method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f] output={null}]
+23:07:57.024 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=tearDown, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:55.034118, hook_id=f082793b-ca02-4559-b932-436c41978663, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}] and args = [[TestResult name=tearDown status=SUCCESS method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f] output={null}], SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@75ae4a1f]]
+23:07:57.024 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/HookLevel
+23:07:57.024 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+23:07:57.024 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/HookLevel/BuildLevelHookEvent and abs path = /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/HookLevel/BuildLevelHookEvent 
+23:07:57.024 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-53/HookLevel/BuildLevelHookEvent
+23:07:57.024 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+23:07:57.024 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+23:07:57.024 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=aaf93d0a-766d-4380-9471-9a6353c63bff, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:07:42.447973, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}], AFTER_METHOD=[{hook_name=tearDown, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:55.034118, hook_id=f082793b-ca02-4559-b932-436c41978663, hook_logs=[], logs=[], key=AFTER_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:07:57.024122, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]}
+23:07:57.030 [tearDown@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@280b44a4, response=success: true
+
+23:07:57.941 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 53 list {}
+23:08:01.669 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1e20e498
+23:08:01.669 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1e20e498
+23:08:01.669 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:01.669 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:01.670 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:01.670 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:01.670 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:01.671 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6994b88d
+23:08:01.671 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6994b88d
+23:08:01.671 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:01.671 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:01.672 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:01.672 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:01.672 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:01.674 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:01.674 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2409c140
+23:08:01.674 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2409c140
+23:08:01.675 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@ddedccb
+23:08:01.675 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@ddedccb
+23:08:01.677 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:01.677 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@554cd62d
+23:08:01.677 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@554cd62d
+23:08:01.677 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@b037b5a
+23:08:01.677 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@b037b5a
+23:08:01.858 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@129e5a86
+23:08:01.858 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@129e5a86
+23:08:01.858 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:01.858 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:01.858 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:01.858 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:01.858 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:01.862 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@b42982d
+23:08:01.862 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@b42982d
+23:08:01.862 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:01.862 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:01.863 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:01.863 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:01.863 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:01.868 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:01.869 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7ba1c829
+23:08:01.869 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7ba1c829
+23:08:01.949 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@41425d2d
+23:08:01.949 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@41425d2d
+23:08:01.949 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:01.949 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:01.949 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:01.950 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:01.950 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:01.955 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6d229597
+23:08:01.955 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6d229597
+23:08:01.955 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:01.955 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:01.955 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:01.956 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:01.956 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:01.960 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:01.960 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@4599a8b8
+23:08:01.960 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@4599a8b8
+23:08:02.118 [Forwarding findElement on session 427031ce26c2f96b79ac1b22bae88fa5b6b8e87b to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.122 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@36dba555
+23:08:02.122 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@36dba555
+23:08:02.123 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:02.123 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:02.123 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:02.123 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:02.123 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:02.128 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.129 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.129 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.129 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.130 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3f429d96
+23:08:02.130 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3f429d96
+23:08:02.192 [Forwarding findElement on session c8230337dfb1c39277039d457d891fae9638f360 to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.193 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3a1368c4
+23:08:02.193 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3a1368c4
+23:08:02.193 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:02.193 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:02.193 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:02.193 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:02.193 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:02.197 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.197 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.197 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.197 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.197 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@22b953bc
+23:08:02.197 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@22b953bc
+23:08:02.331 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2866aab5
+23:08:02.331 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2866aab5
+23:08:02.331 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:02.332 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:02.332 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:02.332 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:02.332 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:02.335 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.335 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1c93ac0e
+23:08:02.335 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1c93ac0e
+23:08:02.397 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5db81960
+23:08:02.397 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5db81960
+23:08:02.398 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:02.398 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:02.398 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:02.398 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:02.398 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:02.400 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.401 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@72ca56d7
+23:08:02.401 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@72ca56d7
+23:08:02.487 [Forwarding findElement on session 427031ce26c2f96b79ac1b22bae88fa5b6b8e87b to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.487 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@485d610a
+23:08:02.487 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@485d610a
+23:08:02.487 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:02.488 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:02.488 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:02.488 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:02.488 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:02.493 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.493 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.493 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.493 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:02.493 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@808b929
+23:08:02.493 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@808b929
+23:08:02.675 [Forwarding findElement on session c8230337dfb1c39277039d457d891fae9638f360 to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.676 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4d1c04c6
+23:08:02.676 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4d1c04c6
+23:08:02.676 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:02.676 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:02.676 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:02.676 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:02.676 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:02.682 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.683 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.683 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.683 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:02.684 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@324c4fcd
+23:08:02.684 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@324c4fcd
+23:08:03.031 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@74684053
+23:08:03.031 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@74684053
+23:08:03.031 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:03.031 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:03.032 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:03.032 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:03.032 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:03.036 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:03.037 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@62ae2304
+23:08:03.037 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@62ae2304
+23:08:03.259 [Forwarding findElement on session 427031ce26c2f96b79ac1b22bae88fa5b6b8e87b to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:03.260 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2327f012
+23:08:03.260 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@2327f012
+23:08:03.260 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:03.261 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:03.261 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:03.261 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:03.261 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:03.266 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:03.266 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:03.266 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:03.266 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:03.266 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7893014f
+23:08:03.266 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7893014f
+23:08:03.416 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@37f84562
+23:08:03.416 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@37f84562
+23:08:03.416 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:03.416 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:03.416 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:03.417 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:03.417 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:03.422 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:03.423 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@4b605d0f
+23:08:03.423 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@4b605d0f
+23:08:03.651 [Forwarding findElement on session c8230337dfb1c39277039d457d891fae9638f360 to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:03.652 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4d72cb72
+23:08:03.652 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4d72cb72
+23:08:03.652 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:03.653 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:03.653 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:03.653 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:03.653 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:03.658 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:03.658 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:03.658 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:03.659 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:03.659 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1577fd09
+23:08:03.659 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1577fd09
+23:08:03.907 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@44e85c08
+23:08:03.907 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@44e85c08
+23:08:03.907 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:03.907 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:03.907 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:03.907 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:03.907 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:03.910 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:03.911 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3ccb0fe9
+23:08:03.911 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3ccb0fe9
+23:08:04.002 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@699f013b
+23:08:04.002 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@699f013b
+23:08:04.002 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:04.002 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:04.002 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:04.002 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:04.002 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:04.004 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:04.004 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@50daf441
+23:08:04.004 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@50daf441
+23:08:04.055 [Forwarding findElement on session 427031ce26c2f96b79ac1b22bae88fa5b6b8e87b to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:04.056 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3f81ca42
+23:08:04.056 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3f81ca42
+23:08:04.056 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:04.056 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:04.056 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:04.056 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:04.056 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:04.057 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:04.057 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:04.057 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:04.057 [addProductToCart@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:04.057 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@48ba343c
+23:08:04.057 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@48ba343c
+23:08:04.201 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@35be9459
+23:08:04.201 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@35be9459
+23:08:04.201 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:04.201 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:04.202 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:04.202 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:04.202 [addProductToCart@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:04.206 [addProductToCart@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.PRE instance=499982210
+23:08:04.206 [addProductToCart@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.POST instance=499982210
+23:08:04.206 [addProductToCart@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load test results
+23:08:04.207 [addProductToCart@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.POST instance=499982210
+23:08:04.207 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@41484097
+23:08:04.207 [addProductToCart@1] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: 427031ce26c2f96b79ac1b22bae88fa5b6b8e87b
+23:08:04.296 [Forwarding findElement on session c8230337dfb1c39277039d457d891fae9638f360 to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:04.297 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@64f95a45
+23:08:04.298 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@64f95a45
+23:08:04.298 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:04.298 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:04.298 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:04.298 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:04.298 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:04.302 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:04.302 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:04.302 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:04.302 [addProductToCart@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:04.302 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6d32d553
+23:08:04.302 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6d32d553
+23:08:04.460 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4291b162
+23:08:04.461 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4291b162
+23:08:04.461 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:04.463 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:04.464 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:04.465 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:04.465 [addProductToCart@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:04.469 [addProductToCart@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.PRE instance=499983172
+23:08:04.470 [addProductToCart@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.POST instance=499983172
+23:08:04.470 [addProductToCart@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load test results
+23:08:04.471 [addProductToCart@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.POST instance=499983172
+23:08:04.471 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@6e972684
+23:08:04.471 [addProductToCart@2] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: c8230337dfb1c39277039d457d891fae9638f360
+23:08:04.799 [addProductToCart@1] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid 427031ce26c2f96b79ac1b22bae88fa5b6b8e87b
+23:08:04.799 [addProductToCart@1] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: 427031ce26c2f96b79ac1b22bae88fa5b6b8e87b
+23:08:05.035 [addProductToCart@2] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid c8230337dfb1c39277039d457d891fae9638f360
+23:08:05.035 [addProductToCart@2] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: c8230337dfb1c39277039d457d891fae9638f360
+23:08:05.409 [addProductToCart@1] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@41484097
+23:08:05.409 [addProductToCart@1] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: 427031ce26c2f96b79ac1b22bae88fa5b6b8e87b
+23:08:05.666 [addProductToCart@2] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@6e972684
+23:08:05.667 [addProductToCart@2] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: c8230337dfb1c39277039d457d891fae9638f360
+23:08:05.977 [addProductToCart@1] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid 427031ce26c2f96b79ac1b22bae88fa5b6b8e87b
+23:08:05.977 [addProductToCart@1] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: 427031ce26c2f96b79ac1b22bae88fa5b6b8e87b
+23:08:06.204 [addProductToCart@2] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid c8230337dfb1c39277039d457d891fae9638f360
+23:08:06.204 [addProductToCart@2] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: c8230337dfb1c39277039d457d891fae9638f360
+23:08:06.616 [addProductToCart@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@41484097, response=success: true
+
+23:08:06.620 [addProductToCart@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.PRE instance=499982210
+23:08:06.620 [addProductToCart@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:08:06.622 [addProductToCart@1] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=STARTED method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@58472096] output={null}]
+23:08:06.623 [addProductToCart@1] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = AFTER_METHOD & hook = {hook_name=tearDown, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:08:06.622969, hook_id=bbb2f87f-ef79-4a6e-84e3-97a106444730, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}  and args = [[TestResult name=tearDown status=STARTED method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@58472096] output={null}], SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@58472096]]
+23:08:06.623 [addProductToCart@1] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[{hook_name=tearDown, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:08:06.622969, hook_id=bbb2f87f-ef79-4a6e-84e3-97a106444730, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:07:53.129645, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}], AFTER_METHOD=[]}
+23:08:06.626 [addProductToCart@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@607b722f, response=success: true
+
+23:08:06.628 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:06.628 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:06.628 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:06.628 [tearDown@1] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@56543fb8
+23:08:06.630 [tearDown@1] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@56543fb8
+23:08:06.630 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:06.633 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:06.634 [tearDown@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@18a37129
+23:08:06.634 [tearDown@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@18a37129
+23:08:06.634 [tearDown@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3605d8d4
+23:08:06.634 [tearDown@1] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3605d8d4
+23:08:06.790 [addProductToCart@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@6e972684, response=success: true
+
+23:08:06.796 [addProductToCart@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.PRE instance=499983172
+23:08:06.796 [addProductToCart@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:08:06.799 [addProductToCart@2] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=STARTED method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@50850539] output={null}]
+23:08:06.799 [addProductToCart@2] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = AFTER_METHOD & hook = {hook_name=tearDown, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:08:06.799146, hook_id=345bcd53-814c-44fe-97b9-8292d0e7bc8b, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}  and args = [[TestResult name=tearDown status=STARTED method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@50850539] output={null}], SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@50850539]]
+23:08:06.799 [addProductToCart@2] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[{hook_name=tearDown, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:08:06.799146, hook_id=345bcd53-814c-44fe-97b9-8292d0e7bc8b, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=af5f9802-d825-451e-b60c-b6d46b6b3018, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:07:54.331755, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}], AFTER_METHOD=[]}
+23:08:06.803 [addProductToCart@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@d4f8653, response=success: true
+
+23:08:06.806 [tearDown@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:06.806 [tearDown@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:06.806 [tearDown@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:06.806 [tearDown@2] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@63a89913
+23:08:06.808 [tearDown@2] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@63a89913
+23:08:06.808 [tearDown@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:06.812 [tearDown@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:06.813 [tearDown@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@23fbd591
+23:08:06.813 [tearDown@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@23fbd591
+23:08:06.813 [tearDown@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1178f4e6
+23:08:06.813 [tearDown@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1178f4e6
+23:08:08.214 [tearDown@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@ef383d2
+23:08:08.214 [tearDown@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@ef383d2
+23:08:08.214 [tearDown@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:08.214 [tearDown@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:08.214 [tearDown@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:08.214 [tearDown@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:08.215 [tearDown@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:08.218 [tearDown@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@47079a12
+23:08:08.218 [tearDown@1] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@47079a12
+23:08:08.218 [tearDown@1] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 54
+23:08:08.218 [tearDown@1] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/TestLevel
+23:08:08.218 [tearDown@1] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/BuildLevel
+23:08:08.218 [tearDown@1] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:08.218 [tearDown@1] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:08.221 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.POST instance=499982210
+23:08:08.221 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:08:08.223 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=SUCCESS method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@58472096] output={null}]
+23:08:08.223 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=tearDown, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:08:06.622969, hook_id=bbb2f87f-ef79-4a6e-84e3-97a106444730, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}] and args = [[TestResult name=tearDown status=SUCCESS method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@58472096] output={null}], SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@58472096]]
+23:08:08.223 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/HookLevel
+23:08:08.223 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+23:08:08.223 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/HookLevel/BuildLevelHookEvent and abs path = /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/HookLevel/BuildLevelHookEvent 
+23:08:08.223 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-54/HookLevel/BuildLevelHookEvent
+23:08:08.224 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+23:08:08.224 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+23:08:08.224 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=3d5e2d14-a5cd-48d2-9f25-55f2ac5ad922, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:07:53.129645, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}], AFTER_METHOD=[{hook_name=tearDown, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:08:06.622969, hook_id=bbb2f87f-ef79-4a6e-84e3-97a106444730, hook_logs=[], logs=[], key=AFTER_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:08:08.223700, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]}
+23:08:08.232 [tearDown@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@64bd3dc7, response=success: true
+
+23:08:08.348 [tearDown@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3ec86e7c
+23:08:08.348 [tearDown@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3ec86e7c
+23:08:08.348 [tearDown@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:08.348 [tearDown@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:08.348 [tearDown@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:08.348 [tearDown@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:08.348 [tearDown@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:08.350 [tearDown@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@19bd429c
+23:08:08.350 [tearDown@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@19bd429c
+23:08:08.350 [tearDown@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 55
+23:08:08.350 [tearDown@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/TestLevel
+23:08:08.350 [tearDown@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/BuildLevel
+23:08:08.350 [tearDown@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+23:08:08.350 [tearDown@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+23:08:08.351 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.POST instance=499983172
+23:08:08.351 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+23:08:08.352 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=SUCCESS method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@50850539] output={null}]
+23:08:08.352 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=tearDown, hook_result=pending, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:08:06.799146, hook_id=345bcd53-814c-44fe-97b9-8292d0e7bc8b, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}] and args = [[TestResult name=tearDown status=SUCCESS method=SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@50850539] output={null}], SeleniumTest.tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@50850539]]
+23:08:08.352 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/HookLevel
+23:08:08.352 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+23:08:08.352 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/HookLevel/BuildLevelHookEvent and abs path = /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/HookLevel/BuildLevelHookEvent 
+23:08:08.352 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/mrmangalberiya/.browserstack/UploadedAttachments-55/HookLevel/BuildLevelHookEvent
+23:08:08.352 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+23:08:08.352 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+23:08:08.352 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:07:36.948225, hook_id=af5f9802-d825-451e-b60c-b6d46b6b3018, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:07:54.331755, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}], AFTER_METHOD=[{hook_name=tearDown, hook_result=passed, test_file_path=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java, event_started_at=2025-08-22T23:08:06.799146, hook_id=345bcd53-814c-44fe-97b9-8292d0e7bc8b, hook_logs=[], logs=[], key=AFTER_METHOD, custom_metadata={}, event_ended_at=2025-08-22T23:08:08.352193, test_location=testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java}]}
+23:08:08.355 [tearDown@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@551edbb9, response=success: true
+
+23:08:08.823 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 54 list {}
+23:08:08.850 [tearDown@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 55 list {}
+23:08:08.859 [main] ERROR c.b.v2.framework.TestNgFramework - trackEvent: unable to find instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE argsLength=2
+23:08:08.864 [Thread-0] INFO  com.browserstack.testOps.Listener - onComplete: CLI is active
+23:08:08.867 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli stop triggered
+23:08:17.950 [Thread-0] DEBUG com.browserstack.v2.SdkCLI - stop-bin-session=success: true
+automate_buildlink: "https://automate.browserstack.com/dashboard/v2/builds/1673463bf3ad5d94a3904c5af6279b37fe77d6b2"
+hashed_id: "1673463bf3ad5d94a3904c5af6279b37fe77d6b2"
+
+23:08:17.963 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: shutting down CLI
+23:08:21.224 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - Visit https://automation.browserstack.com/builds/yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll to view build report, insights, and many more debugging information all at one place!
+23:08:21.224 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:08:21.224 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/1673463bf3ad5d94a3904c5af6279b37fe77d6b2
+23:08:21.224 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:08:21.227 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: ab24985a-35fa-42fd-b825-78fe3b6814e6, testhub id: yroqyzcxmyini9bhlxzyo3v3pt9ijhqbsjh0rgll
+23:08:21.227 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
