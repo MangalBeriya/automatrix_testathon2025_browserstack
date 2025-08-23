@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BrowserStack Checkout Flow Suite" verbose="1" parallel="false">
+    <test name="Checkout Flow Test">
+        <classes>
+            <class name="com.browserstack.loginLogout.LoginLogoutTest"/>
+            <class name="com.browserstack.checkoutFlow.CheckoutFlowTest"/>
+        </classes>
+    </test>
+</suite>
